@@ -1,0 +1,26 @@
+[
+  {
+    "name": "stations",
+    "content": [
+      "id integer NOT NULL PRIMARY KEY AUTOINCREMENT,",
+      "city TEXT NOT NULL,",
+      "brand TEXT NOT NULL,",
+      "imgSrc TEXT NOT NULL,",
+      "address TEXT NOT NULL,",
+      "zipCode TEXT NOT NULL,",
+      "gazole TEXT NOT NULL,",
+      "sp95 TEXT NOT NUll,",
+      "e10 TEXT NOT NULL,",
+      "sp98 TEXT NOT NULL,",
+      "e85 TEXT NOT NULL,",
+      "gplc TEXT NOT NULL"
+    ]
+  },
+  {
+    "name": "cities",
+    "content": [
+      "id integer NOT NULL PRIMARY KEY AUTOINCREMENT,",
+      "name TEXT NOT NULL"
+    ]
+  }
+]
